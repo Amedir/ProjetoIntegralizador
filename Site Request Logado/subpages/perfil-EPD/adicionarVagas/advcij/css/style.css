@@ -1,0 +1,115 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.row{
+    margin: 0;
+}
+#corpo{
+    border: 1px solid;
+    padding-left: 10%;
+}
+.container{
+    padding: 60px 0;
+}
+p, li{
+    font-size: 14px;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #131C45;
+    text-align: center justify;
+    color: rgb(255, 255, 255);
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 130px;
+}
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a {
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+/*Titulo*/
+
+.title{
+    text-align: center;
+    margin-bottom: 0%;
+    border-top: 1px solid;
+}
+
+/*Form*/
+
+.form-group{
+ margin-left: 0;
+ border: 1px solid;
+ border-left-color: transparent;
+ border-right-color: transparent;
+ padding: 5%;
+ width: 130%;
+}
+
+#form-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Botôes*/
+
+#confirm-btn{
+    background: transparent;
+    border-color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 2%;
+    margin-left: 39%;
+}
+#confirm-btn:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+    
+}
+#cancel-btn{
+    background: transparent;
+    border-color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#cancel-btn:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+
+
+@media(max-width:760px){
+
+}
+
+ 
+
+
+
+

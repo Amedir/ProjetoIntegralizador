@@ -1,0 +1,113 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 60px 0;
+}
+
+p, li{
+    font-size: 14px;
+}
+
+/*Rodapé*/
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: rgb(255, 255, 255);
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 130px;
+}
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a {
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+/*Main*/
+.IES-title, #IES-title{
+    margin-bottom: 4%;
+    border: 1px solid;
+
+}
+#IES-logo{
+    margin-bottom: 10%;
+    margin-left: 4%
+}
+#IES-name{
+    margin-bottom: 4%;
+}
+.img-fluid{
+    width: 50%;
+    background-color: rgb(95, 93, 93);
+    border-radius: 1%;
+}
+#sair-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 25%;
+    margin-top: 11%;
+    transition: .3s;
+}
+#sair-btn:hover{
+    background-color: black;
+    color: white;
+}
+#editar-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 25%;
+    margin-top: 11%;
+    transition: .3s;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: black;
+
+
+}
+#editar-btn:hover{
+    background-color: black;
+    color: white;
+}
+#btn{
+    margin-left: 38%;
+}
+
+/*Contatos*/
+#contatos{
+    margin-top: 5%;
+    border: 1px solid;
+}
+
+/*Responsividade*/
+@media(max-width:760px){
+    .img-fluid{
+        width: 30%;
+        padding: 1%;
+    }
+}

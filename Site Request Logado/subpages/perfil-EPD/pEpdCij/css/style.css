@@ -1,0 +1,140 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f9f9f9;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 60px 0;
+}
+p, li{
+    font-size: 14px;
+}
+
+/*Rodapé*/
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: white;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 130px;
+}
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a {
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+/*Main*/
+
+.EPD-title, #EPD-title{
+    margin-bottom: 4%;
+    border: 1px solid;
+    margin-top: 3%;
+
+}
+#EPD-logo{
+    margin-bottom: 10%;
+    margin-left: 4%
+}
+#EPD-name{
+    margin-bottom: 4%;
+}
+.img-fluid{
+    width: 50%;
+    background-color: rgba(95, 93, 93, 0.178);
+    border-radius: 1%;
+}
+
+#vagas-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 11%;
+    transition: .3s;
+    margin-right: 100px;
+}
+#vagas-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#editar-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 11%;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+    margin-left: 80px;
+
+
+}
+#editar-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#sair-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 11%;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+#sair-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Contatos*/
+#contatos{
+    margin-top: 5%;
+    border: 1px solid;
+}
+
+#confirmacao-area{
+    margin:0 auto;
+}
+
+/*vagas*/
+
+#vagasDesc{
+    border: 1px solid;
+    margin-bottom: 1%;
+    width: 50%;
+}
+
+#excluir{
+    margin-left: 85%;
+}
+
+
+/*Responsividade*/
+@media(max-width:760px){
+    .img-fluid{
+        width: 30%;
+        padding: 1%;
+    }
+}
