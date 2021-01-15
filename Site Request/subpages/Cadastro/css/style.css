@@ -1,0 +1,95 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 60px 0;
+}
+
+p, li{
+    font-size: 14px;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: white;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+/*Cadastro */
+
+/*Formulários*/
+
+#form-cadastro{
+    margin-top: 5%;
+}
+
+/*Texto informativo*/
+#text-form{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*Responsividade*/
+
+@media(max-width: 760px){
+    /*Formulários*/
+
+    #form-cadastro{
+        margin-top: 4%;
+    }
+
+    /*Texto informativo*/
+    #text-form{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+    }
+}
+
+
+
+
+

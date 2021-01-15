@@ -1,0 +1,194 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    font-size: 14px;
+}
+
+/*Rodapé*/
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: rgb(255, 255, 255);
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+
+/*Slider*/
+.container-fluid{
+    padding: 0;
+}
+/*Tamanho dos slides*/
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 75vh;
+}
+/*legendas*/
+#mainSlider .carousel-caption{
+    top: 80%;
+}
+#mainSlider .carousel-caption h2{
+    margin-bottom: 100px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(0, 0, 0); /* cor da borda */
+    font-size: 24pt;  color: #fffdd9;
+}
+/*Botão*/
+.main-btn{
+    background-color:#6fc1e7d7;
+    color: white;
+    text-transform: uppercase;
+    width: 20px;
+    height: 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+/*animação do botao*/
+.main-btn:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: #4366cf;
+}
+
+
+
+/*Sobre*/
+#about-area{
+    background-image: linear-gradient( #6fc1e7d7,#4366cf, #4366cf, #4366cf, white);
+    padding-top: 1%;
+    color: rgba(255, 255, 255, 0.856);
+    text-align: justify;
+}
+#about-area img{
+    width: 40%;
+}
+.main-title{
+    color: rgba(255, 255, 255, 0.856);
+    margin: 0 0 6px 0;
+    font-size: 40px;
+    
+}
+
+
+/*Empresas&Instituições*/
+#epdies-area2{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.main-title2{
+    color: rgb(255, 255, 255);
+    margin: 0 0 6px 0;
+    font-size: 40px;
+}
+#epdies-area2 p{
+    text-align: justify;
+}
+
+#tentando{
+    border: solid 2px #131C45;
+    border-bottom: none;
+    border-top: none;
+    background-color: #4366cf;
+    color: white;
+}
+
+/*Responsividade*/
+@media(max-width: 790px){
+    /*geral*/
+    .container{
+        padding: 20px 0 ;
+    }
+
+    /*SLider*/
+
+    .carousel-indicators{
+        display: none;
+    }
+   
+    #mainSlider .carousel-inner, #maiSlider .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption{
+        left: 10%;
+        right: 10%;
+    }
+
+    .main-btn{
+        width: 10px;
+        height: 2.5px;
+        padding: 5px 10px;
+        display: none;
+    }
+
+    #mainSlider .carousel-caption h2{
+        margin-bottom: 20px;
+        font-size: 10pt;
+    }
+
+    /*Sobre*/
+    #about-area img{
+        margin-top: 10px;
+        width: 100px;
+    }
+    #about-area{
+        padding-top: 1%;
+        margin-top: -50%;
+    }
+
+    /*Empresas e Instituições*/
+    #epdies-area2 img{
+        margin-top: 10px;
+        width: 100px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+

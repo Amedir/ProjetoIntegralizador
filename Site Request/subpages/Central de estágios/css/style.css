@@ -1,0 +1,159 @@
+
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+#empresa1-area .row{
+    padding: 2%;
+    border: 1px solid  rgb(185, 183, 183);
+}
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 60px 0;
+}
+
+p, li{
+    font-size: 14px;
+}
+/*Rodapé*/
+
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: white;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+
+/*Main copiar e colar aqui tb*/
+.tituloCentral .container .row .col-12 h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+#cde{
+ padding: 55px 0 0 0px;
+ width: 100%;
+}
+
+#empresa1-area{
+    background-color: #3f33ee28;
+}
+#empresa2-area{
+    background-color: #3f33ee28;
+}
+#empresa3-area{
+    background-color: #3f33ee28;
+}   
+
+/*Nome e logo das empresas*/
+.main-title{
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 35px;  
+
+}
+.img-fluid{
+    width: 90%;
+    margin-top: 20%;
+    padding: 9%;
+}
+
+
+/*Descrições das vagas*/
+/*Div*/
+#texto{
+    background-color: #5f54ee7a;
+    padding: 50px;
+    position: relative;
+}
+
+/*Texto */
+#texto p{
+    text-align: center justify;
+}
+/*Link */
+#link{
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+}
+
+/*Responsividade*/
+
+@media(max-width:760px){
+
+    .container{
+        padding: 70px 0;
+        margin-left: 0;
+    }
+
+    /*Título*/
+    .tituloCentral .container .row .col-12 h1 {
+        text-align: center;
+        font-size: 20pt;
+    }
+
+    /*Imagens*/
+    .img-fluid{
+        width: 20%;
+        padding: 1%;
+    }
+
+    /*Empresas*/
+    .main-title{
+        width: 50%;
+        padding: 1%;
+        font-size: 13pt;
+    }
+
+    #texto{
+        width: 90%;
+        margin-left: -6%;
+    }
+    #texto p{
+        text-align: left justify;
+    }
+
+    .desc{
+        font-size: 10pt;
+    }
+    #link{
+        text-align: left;
+    }
+    
+}

@@ -1,0 +1,99 @@
+/*Gerais*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 60px 0;
+}
+
+p, li{
+    font-size: 14px;
+}
+/*Rodapé*/
+
+footer{
+    background-color:  #131C45;
+    text-align: center justify;
+    color: white;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #ffffff;;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:white ;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 8.rem;
+}
+
+
+
+/*Empresas*/
+
+#empresas-title{
+    margin-bottom: -10%;
+}
+#empresas a{
+    color: rgb(120, 48, 253);
+}
+#container{
+    background-color: rgb(122, 120, 120);
+    width: 90%;
+    margin-top: 5%;
+}
+
+.empresas-title{
+    color: black;
+}
+
+#empresas-area{
+    display: flex;
+}
+
+
+.img{
+    width: 110%;
+    background-color: #5070cfbe;
+    padding: 5%;
+}
+
+.empresa-title{
+    font-size: 15pt;
+}
+
+/*Responsividade*/
+
+@media(max-width:760px){
+    .img-fluid{
+        width: 30%;
+        padding: 1%;
+    }
+}
