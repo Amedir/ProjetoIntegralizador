@@ -57,6 +57,9 @@ header, .navbar{
 
 
 /*Empresas*/
+#nav-border {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
 
 #empresas-title{
     margin-bottom: -10%;

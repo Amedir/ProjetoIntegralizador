@@ -72,14 +72,12 @@ header, .navbar{
 }
 
 #empresa1-area{
-    background-color: #3f33ee28;
+    background-color: #ffffff;
 }
-#empresa2-area{
-    background-color: #3f33ee28;
+
+#nav-border {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
 }
-#empresa3-area{
-    background-color: #3f33ee28;
-}   
 
 /*Nome e logo das empresas*/
 .main-title{
@@ -97,7 +95,7 @@ header, .navbar{
 /*Descrições das vagas*/
 /*Div*/
 #texto{
-    background-color: #5f54ee7a;
+    background-color: #9993f15b;
     padding: 50px;
     position: relative;
 }
