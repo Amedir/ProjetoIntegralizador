@@ -1,3 +1,3 @@
 # Projeto realizado durante a residência do Porto Digital
 
-## Sistema para conecção entre empresas e instituições de ensino superior
+## Sistema para conexão entre empresas e instituições de ensino superior
